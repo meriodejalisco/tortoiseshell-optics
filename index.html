@@ -7,54 +7,57 @@
     <link href="resources/style.css" type="text/css" rel="stylesheet">
   </head>
   <body>
-      <div class="header" style="background-image: url('./resources/glasses-bg.png')"
-      width="100%">
-        <div class="menu">
-          <div class="logo">
+    <!-- Header -->
+    <header style="background-image: url('./resources/glasses-bg.png')"
+    width="100%">
+      <nav class="container">
+        <div>
             <img src="resources/logo-white.png">
-            <p>Tortoiseshell Optics</p>
-          </div>
-          <nav>
-            <ul>
-              <li><a href="#services">Services</a></li>
-              <li><a href="#products">Products</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </nav>
+            <span>Tortoiseshell Optics</span>
         </div>
-        <div class="headline">
-          <h1>DON´T JUST LOOK, SEE</h1>
+        <div class="menu">
+          <ul class="main-menu">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <ul class="mobile-menu">
+            <li>Menu</li>
+          </ul>
+        </div>
+      </nav>
+      <div class="flex container">
+        <div class="banner">
+          <h1>DON´T JUST LOOK, SEE.</h1>
         </div>
       </div>
+    </header>
+
+      <!-- SERVICES-->
+
       <div class="main">
-        <div class="characteristics">
-          <div class="col1">
-            <div class="image-content">
-              <img src="resources/paper-icon.png">
+        <div class="services">
+          <div class="col">
+            <div>
+              <img src="resources/paper-icon.png" class="paper-icon">
             </div>
-            <div class="text-content">
-              <p>Comprehensive Exams</p>
-            </div>
+            <div class="text-content">Comprehensive Exams</div>
           </div>
-          <div class="col2">
-            <div class="image-content">
-              <img src="resources/ruler-icon.png">
+          <div class="col">
+            <div>
+              <img src="resources/ruler-icon.png" class="icon">
             </div>
-            <div class="text-content">
-              <p>Custom Fittings</p>
-            </div>
+            <div class="text-content">Custom Fittings</div>
           </div>
-          <div class="col3">
-            <div class="image-content">
-              <img src="resources/truck-icon.png">
+          <div class="col">
+            <div>
+              <img src="resources/truck-icon.png" class="icon">
             </div>
-            <div class="text-content">
-              <p>Fast Delivery</p>
-            </div>
+            <div class="text-content">Fast Delivery</div>
           </div>
         </div>
-        <div class="statement">
-          <div class="col4">
+        <div class="info">
+          <div class="collum">
             <div class="title">
               <h4>PHILOSOPHY</h4>
             </div>
@@ -66,7 +69,7 @@
                 ours.</p>
             </div>
           </div>
-          <div class="col5">
+          <div class="collum two">
             <div class="title">
               <h4>APPOINTMENTS</h4>
             </div>
@@ -77,9 +80,13 @@
           </div>
         </div>
     </div>
+
+    <!-- footer-->
     <footer>
-      <img src="resources/logo-black.png">
-      <p>Copyright Tortoiseshell Optics</p>
+      <div>
+        <img src="resources/logo-black.png">
+        <span class="footer-text">Copyright Tortoiseshell Optics</span>
+      </div>
     </footer>
 
 
